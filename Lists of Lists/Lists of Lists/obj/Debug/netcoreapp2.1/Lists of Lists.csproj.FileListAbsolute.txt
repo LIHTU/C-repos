@@ -1,0 +1,11 @@
+C:\Users\Robin\source\repos\Lists of Lists\Lists of Lists\obj\Debug\netcoreapp2.1\Lists of Lists.csprojAssemblyReference.cache
+C:\Users\Robin\source\repos\Lists of Lists\Lists of Lists\obj\Debug\netcoreapp2.1\Lists of Lists.csproj.CoreCompileInputs.cache
+C:\Users\Robin\source\repos\Lists of Lists\Lists of Lists\obj\Debug\netcoreapp2.1\Lists of Lists.AssemblyInfoInputs.cache
+C:\Users\Robin\source\repos\Lists of Lists\Lists of Lists\obj\Debug\netcoreapp2.1\Lists of Lists.AssemblyInfo.cs
+C:\Users\Robin\source\repos\Lists of Lists\Lists of Lists\bin\Debug\netcoreapp2.1\Lists of Lists.deps.json
+C:\Users\Robin\source\repos\Lists of Lists\Lists of Lists\bin\Debug\netcoreapp2.1\Lists of Lists.runtimeconfig.json
+C:\Users\Robin\source\repos\Lists of Lists\Lists of Lists\bin\Debug\netcoreapp2.1\Lists of Lists.runtimeconfig.dev.json
+C:\Users\Robin\source\repos\Lists of Lists\Lists of Lists\bin\Debug\netcoreapp2.1\Lists of Lists.dll
+C:\Users\Robin\source\repos\Lists of Lists\Lists of Lists\bin\Debug\netcoreapp2.1\Lists of Lists.pdb
+C:\Users\Robin\source\repos\Lists of Lists\Lists of Lists\obj\Debug\netcoreapp2.1\Lists of Lists.dll
+C:\Users\Robin\source\repos\Lists of Lists\Lists of Lists\obj\Debug\netcoreapp2.1\Lists of Lists.pdb

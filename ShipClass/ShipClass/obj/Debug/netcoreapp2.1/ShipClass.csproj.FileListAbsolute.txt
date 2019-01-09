@@ -1,0 +1,11 @@
+C:\Users\Robin\source\repos\ShipClass\ShipClass\bin\Debug\netcoreapp2.1\ShipClass.deps.json
+C:\Users\Robin\source\repos\ShipClass\ShipClass\bin\Debug\netcoreapp2.1\ShipClass.runtimeconfig.json
+C:\Users\Robin\source\repos\ShipClass\ShipClass\bin\Debug\netcoreapp2.1\ShipClass.runtimeconfig.dev.json
+C:\Users\Robin\source\repos\ShipClass\ShipClass\bin\Debug\netcoreapp2.1\ShipClass.dll
+C:\Users\Robin\source\repos\ShipClass\ShipClass\bin\Debug\netcoreapp2.1\ShipClass.pdb
+C:\Users\Robin\source\repos\ShipClass\ShipClass\obj\Debug\netcoreapp2.1\ShipClass.csproj.CoreCompileInputs.cache
+C:\Users\Robin\source\repos\ShipClass\ShipClass\obj\Debug\netcoreapp2.1\ShipClass.AssemblyInfoInputs.cache
+C:\Users\Robin\source\repos\ShipClass\ShipClass\obj\Debug\netcoreapp2.1\ShipClass.AssemblyInfo.cs
+C:\Users\Robin\source\repos\ShipClass\ShipClass\obj\Debug\netcoreapp2.1\ShipClass.dll
+C:\Users\Robin\source\repos\ShipClass\ShipClass\obj\Debug\netcoreapp2.1\ShipClass.pdb
+C:\Users\Robin\source\repos\ShipClass\ShipClass\obj\Debug\netcoreapp2.1\ShipClass.csprojAssemblyReference.cache

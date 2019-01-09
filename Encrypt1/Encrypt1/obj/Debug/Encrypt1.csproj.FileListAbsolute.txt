@@ -1,0 +1,6 @@
+C:\Users\Robin\source\repos\Encrypt1\Encrypt1\bin\Debug\Encrypt1.exe.config
+C:\Users\Robin\source\repos\Encrypt1\Encrypt1\bin\Debug\Encrypt1.exe
+C:\Users\Robin\source\repos\Encrypt1\Encrypt1\bin\Debug\Encrypt1.pdb
+C:\Users\Robin\source\repos\Encrypt1\Encrypt1\obj\Debug\Encrypt1.csproj.CoreCompileInputs.cache
+C:\Users\Robin\source\repos\Encrypt1\Encrypt1\obj\Debug\Encrypt1.exe
+C:\Users\Robin\source\repos\Encrypt1\Encrypt1\obj\Debug\Encrypt1.pdb

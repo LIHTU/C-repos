@@ -1,0 +1,11 @@
+C:\Users\Robin\source\repos\AbstractClassDemo\AbstractClassDemo\bin\Debug\netcoreapp2.1\AbstractClassDemo.deps.json
+C:\Users\Robin\source\repos\AbstractClassDemo\AbstractClassDemo\bin\Debug\netcoreapp2.1\AbstractClassDemo.runtimeconfig.json
+C:\Users\Robin\source\repos\AbstractClassDemo\AbstractClassDemo\bin\Debug\netcoreapp2.1\AbstractClassDemo.runtimeconfig.dev.json
+C:\Users\Robin\source\repos\AbstractClassDemo\AbstractClassDemo\bin\Debug\netcoreapp2.1\AbstractClassDemo.dll
+C:\Users\Robin\source\repos\AbstractClassDemo\AbstractClassDemo\bin\Debug\netcoreapp2.1\AbstractClassDemo.pdb
+C:\Users\Robin\source\repos\AbstractClassDemo\AbstractClassDemo\obj\Debug\netcoreapp2.1\AbstractClassDemo.csprojAssemblyReference.cache
+C:\Users\Robin\source\repos\AbstractClassDemo\AbstractClassDemo\obj\Debug\netcoreapp2.1\AbstractClassDemo.csproj.CoreCompileInputs.cache
+C:\Users\Robin\source\repos\AbstractClassDemo\AbstractClassDemo\obj\Debug\netcoreapp2.1\AbstractClassDemo.AssemblyInfoInputs.cache
+C:\Users\Robin\source\repos\AbstractClassDemo\AbstractClassDemo\obj\Debug\netcoreapp2.1\AbstractClassDemo.AssemblyInfo.cs
+C:\Users\Robin\source\repos\AbstractClassDemo\AbstractClassDemo\obj\Debug\netcoreapp2.1\AbstractClassDemo.dll
+C:\Users\Robin\source\repos\AbstractClassDemo\AbstractClassDemo\obj\Debug\netcoreapp2.1\AbstractClassDemo.pdb

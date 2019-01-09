@@ -1,0 +1,11 @@
+C:\Users\Robin\source\repos\FitnessClub\FitnessClub\obj\Debug\netcoreapp2.1\FitnessClub.csprojAssemblyReference.cache
+C:\Users\Robin\source\repos\FitnessClub\FitnessClub\obj\Debug\netcoreapp2.1\FitnessClub.csproj.CoreCompileInputs.cache
+C:\Users\Robin\source\repos\FitnessClub\FitnessClub\obj\Debug\netcoreapp2.1\FitnessClub.AssemblyInfoInputs.cache
+C:\Users\Robin\source\repos\FitnessClub\FitnessClub\obj\Debug\netcoreapp2.1\FitnessClub.AssemblyInfo.cs
+C:\Users\Robin\source\repos\FitnessClub\FitnessClub\bin\Debug\netcoreapp2.1\FitnessClub.deps.json
+C:\Users\Robin\source\repos\FitnessClub\FitnessClub\bin\Debug\netcoreapp2.1\FitnessClub.runtimeconfig.json
+C:\Users\Robin\source\repos\FitnessClub\FitnessClub\bin\Debug\netcoreapp2.1\FitnessClub.runtimeconfig.dev.json
+C:\Users\Robin\source\repos\FitnessClub\FitnessClub\bin\Debug\netcoreapp2.1\FitnessClub.dll
+C:\Users\Robin\source\repos\FitnessClub\FitnessClub\bin\Debug\netcoreapp2.1\FitnessClub.pdb
+C:\Users\Robin\source\repos\FitnessClub\FitnessClub\obj\Debug\netcoreapp2.1\FitnessClub.dll
+C:\Users\Robin\source\repos\FitnessClub\FitnessClub\obj\Debug\netcoreapp2.1\FitnessClub.pdb

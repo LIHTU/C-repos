@@ -1,0 +1,11 @@
+C:\Users\Robin\source\repos\WordsToNumbers\WordsToNumbers\obj\Debug\netcoreapp2.1\WordsToNumbers.csprojAssemblyReference.cache
+C:\Users\Robin\source\repos\WordsToNumbers\WordsToNumbers\obj\Debug\netcoreapp2.1\WordsToNumbers.csproj.CoreCompileInputs.cache
+C:\Users\Robin\source\repos\WordsToNumbers\WordsToNumbers\obj\Debug\netcoreapp2.1\WordsToNumbers.AssemblyInfoInputs.cache
+C:\Users\Robin\source\repos\WordsToNumbers\WordsToNumbers\obj\Debug\netcoreapp2.1\WordsToNumbers.AssemblyInfo.cs
+C:\Users\Robin\source\repos\WordsToNumbers\WordsToNumbers\bin\Debug\netcoreapp2.1\WordsToNumbers.deps.json
+C:\Users\Robin\source\repos\WordsToNumbers\WordsToNumbers\bin\Debug\netcoreapp2.1\WordsToNumbers.runtimeconfig.json
+C:\Users\Robin\source\repos\WordsToNumbers\WordsToNumbers\bin\Debug\netcoreapp2.1\WordsToNumbers.runtimeconfig.dev.json
+C:\Users\Robin\source\repos\WordsToNumbers\WordsToNumbers\bin\Debug\netcoreapp2.1\WordsToNumbers.dll
+C:\Users\Robin\source\repos\WordsToNumbers\WordsToNumbers\bin\Debug\netcoreapp2.1\WordsToNumbers.pdb
+C:\Users\Robin\source\repos\WordsToNumbers\WordsToNumbers\obj\Debug\netcoreapp2.1\WordsToNumbers.dll
+C:\Users\Robin\source\repos\WordsToNumbers\WordsToNumbers\obj\Debug\netcoreapp2.1\WordsToNumbers.pdb

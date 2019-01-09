@@ -1,0 +1,11 @@
+C:\Users\Robin\source\repos\Houses\Houses\bin\Debug\netcoreapp2.1\Houses.deps.json
+C:\Users\Robin\source\repos\Houses\Houses\bin\Debug\netcoreapp2.1\Houses.runtimeconfig.json
+C:\Users\Robin\source\repos\Houses\Houses\bin\Debug\netcoreapp2.1\Houses.runtimeconfig.dev.json
+C:\Users\Robin\source\repos\Houses\Houses\bin\Debug\netcoreapp2.1\Houses.dll
+C:\Users\Robin\source\repos\Houses\Houses\bin\Debug\netcoreapp2.1\Houses.pdb
+C:\Users\Robin\source\repos\Houses\Houses\obj\Debug\netcoreapp2.1\Houses.csprojAssemblyReference.cache
+C:\Users\Robin\source\repos\Houses\Houses\obj\Debug\netcoreapp2.1\Houses.csproj.CoreCompileInputs.cache
+C:\Users\Robin\source\repos\Houses\Houses\obj\Debug\netcoreapp2.1\Houses.AssemblyInfoInputs.cache
+C:\Users\Robin\source\repos\Houses\Houses\obj\Debug\netcoreapp2.1\Houses.AssemblyInfo.cs
+C:\Users\Robin\source\repos\Houses\Houses\obj\Debug\netcoreapp2.1\Houses.dll
+C:\Users\Robin\source\repos\Houses\Houses\obj\Debug\netcoreapp2.1\Houses.pdb

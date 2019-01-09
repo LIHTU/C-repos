@@ -1,0 +1,11 @@
+C:\Users\Robin\source\repos\UserInput\UserInput\bin\Debug\netcoreapp2.1\UserInput.deps.json
+C:\Users\Robin\source\repos\UserInput\UserInput\bin\Debug\netcoreapp2.1\UserInput.runtimeconfig.json
+C:\Users\Robin\source\repos\UserInput\UserInput\bin\Debug\netcoreapp2.1\UserInput.runtimeconfig.dev.json
+C:\Users\Robin\source\repos\UserInput\UserInput\bin\Debug\netcoreapp2.1\UserInput.dll
+C:\Users\Robin\source\repos\UserInput\UserInput\bin\Debug\netcoreapp2.1\UserInput.pdb
+C:\Users\Robin\source\repos\UserInput\UserInput\obj\Debug\netcoreapp2.1\UserInput.csprojAssemblyReference.cache
+C:\Users\Robin\source\repos\UserInput\UserInput\obj\Debug\netcoreapp2.1\UserInput.csproj.CoreCompileInputs.cache
+C:\Users\Robin\source\repos\UserInput\UserInput\obj\Debug\netcoreapp2.1\UserInput.AssemblyInfoInputs.cache
+C:\Users\Robin\source\repos\UserInput\UserInput\obj\Debug\netcoreapp2.1\UserInput.AssemblyInfo.cs
+C:\Users\Robin\source\repos\UserInput\UserInput\obj\Debug\netcoreapp2.1\UserInput.dll
+C:\Users\Robin\source\repos\UserInput\UserInput\obj\Debug\netcoreapp2.1\UserInput.pdb

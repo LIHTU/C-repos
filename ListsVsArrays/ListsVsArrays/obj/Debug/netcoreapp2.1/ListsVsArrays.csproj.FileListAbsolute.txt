@@ -1,0 +1,11 @@
+C:\Users\Robin\source\repos\ListsVsArrays\ListsVsArrays\bin\Debug\netcoreapp2.1\ListsVsArrays.deps.json
+C:\Users\Robin\source\repos\ListsVsArrays\ListsVsArrays\bin\Debug\netcoreapp2.1\ListsVsArrays.runtimeconfig.json
+C:\Users\Robin\source\repos\ListsVsArrays\ListsVsArrays\bin\Debug\netcoreapp2.1\ListsVsArrays.runtimeconfig.dev.json
+C:\Users\Robin\source\repos\ListsVsArrays\ListsVsArrays\bin\Debug\netcoreapp2.1\ListsVsArrays.dll
+C:\Users\Robin\source\repos\ListsVsArrays\ListsVsArrays\bin\Debug\netcoreapp2.1\ListsVsArrays.pdb
+C:\Users\Robin\source\repos\ListsVsArrays\ListsVsArrays\obj\Debug\netcoreapp2.1\ListsVsArrays.csprojAssemblyReference.cache
+C:\Users\Robin\source\repos\ListsVsArrays\ListsVsArrays\obj\Debug\netcoreapp2.1\ListsVsArrays.csproj.CoreCompileInputs.cache
+C:\Users\Robin\source\repos\ListsVsArrays\ListsVsArrays\obj\Debug\netcoreapp2.1\ListsVsArrays.AssemblyInfoInputs.cache
+C:\Users\Robin\source\repos\ListsVsArrays\ListsVsArrays\obj\Debug\netcoreapp2.1\ListsVsArrays.AssemblyInfo.cs
+C:\Users\Robin\source\repos\ListsVsArrays\ListsVsArrays\obj\Debug\netcoreapp2.1\ListsVsArrays.dll
+C:\Users\Robin\source\repos\ListsVsArrays\ListsVsArrays\obj\Debug\netcoreapp2.1\ListsVsArrays.pdb

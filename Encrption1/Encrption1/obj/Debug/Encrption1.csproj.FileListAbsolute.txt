@@ -1,0 +1,7 @@
+C:\Users\robin\source\repos\Encrption1\Encrption1\bin\Debug\Encrption1.exe.config
+C:\Users\robin\source\repos\Encrption1\Encrption1\bin\Debug\Encrption1.exe
+C:\Users\robin\source\repos\Encrption1\Encrption1\bin\Debug\Encrption1.pdb
+C:\Users\robin\source\repos\Encrption1\Encrption1\obj\Debug\Encrption1.csprojAssemblyReference.cache
+C:\Users\robin\source\repos\Encrption1\Encrption1\obj\Debug\Encrption1.csproj.CoreCompileInputs.cache
+C:\Users\robin\source\repos\Encrption1\Encrption1\obj\Debug\Encrption1.exe
+C:\Users\robin\source\repos\Encrption1\Encrption1\obj\Debug\Encrption1.pdb

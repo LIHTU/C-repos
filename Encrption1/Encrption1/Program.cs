@@ -30,6 +30,13 @@ namespace Encrption1
                         int asInt2 = asInt + inc;
 
                         char eChar = (char)(asInt2);
+                        // what is the format of the target file? utf?  ascii?
+                        // how to find out the format/encoding of a file
+                        // how is(isn't) encoding/format related to file extension?
+                        // libraries can help.  maybe an ascii parse library or utf parse library
+                        // use modulus to wrap through vals that break set ceiling
+                        // https://en.wikipedia.org/wiki/Caesar_cipher
+                        // use inverse distribution alorythm
                         WriteLine("asInt {0} + inc {1} = asInt2 {2}({3})", asInt, inc, asInt2, eChar);
 
                         eString += eChar;

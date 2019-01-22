@@ -13,6 +13,14 @@ namespace Payroll
     {
         static void Main(string[] args)
         {
+            List<Staff> myStaff = ReadFile.read();
+            WriteLine(myStaff.Count);
+            foreach(Staff s in myStaff)
+            {
+                WriteLine(s.ToString());
+            }
+
+            ReadKey();  // end program
         }
     }
 
@@ -122,29 +130,34 @@ namespace Payroll
                 "adminHourlyRate: " + adminHourlyRate + "\n" +
                 "overtimeRate" + overtimeRate + "\n" +
                 "Overtime" + Overtime + "\n";
-            return base.ToString() + adminString;
+            return base.ToString(this) + adminString;
         }
     }
 
-    public List<Staff> ReadFile()
+    class ReadFile
     {
-        List<Staff> myStaff = new List<Staff>();
-        string[] result = new string[2];
-        string path = "staff.txt";// in the debug folder where the ".exe" is, according to book.  don't see exe tho
-        string[] separator = { ", " };
+        public static List<Staff> read() {
+            List<Staff> myStaff = new List<Staff>();
+            string[] result = new string[2];
+            string path = "staff.txt";// in the debug folder where the ".exe" is, according to book.  don't see exe tho
+            string[] separator = { ", " };
 
-        if (File.Exists(path))
-        {
-            using (StreamReader sr = new StreamReader(path)
+            if (File.Exists(path))
             {
-                while (sr.EndOfStream != true)
+                using (StreamReader sr = new StreamReader(path))
                 {
-                    string line = sr.ReadLine();
-                    result = line.Split(separator, StringSplitOptions.None);
+                    while (sr.EndOfStream != true)
+                    {
+                        string line = sr.ReadLine();
+                        result = line.Split(separator, StringSplitOptions.None);
+                        if (result[1] == "Manager") myStaff.Add(new Manager(result[0]));
+                        else if (result[1] == "Admin") myStaff.Add(new Admin(result[0]));
+                        else WriteLine("Could not resolve staff role {0}", result[1]);
+                    }
+                    sr.Close();
                 }
-            }
+            } else WriteLine("No file");
+            return myStaff;
         }
-
-        return myStaff;
     }
 }

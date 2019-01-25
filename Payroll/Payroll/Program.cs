@@ -128,8 +128,8 @@ namespace Payroll
         {
             string adminString = "" +
                 "adminHourlyRate: " + adminHourlyRate + "\n" +
-                "overtimeRate" + overtimeRate + "\n" +
-                "Overtime" + Overtime + "\n";
+                "overtimeRate: " + overtimeRate + "\n" +
+                "Overtime: " + Overtime + "\n";
             return base.ToString(this) + adminString;
         }
     }

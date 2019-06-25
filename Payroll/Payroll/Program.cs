@@ -13,14 +13,102 @@ namespace Payroll
     {
         static void Main(string[] args)
         {
-            List<Staff> myStaff = ReadFile.read();
-            WriteLine(myStaff.Count);
-            foreach(Staff s in myStaff)
+            List<Staff> myStaff = FileReader.ReadFile();
+            int month = 0;
+            int year = 0;
+
+            while(year == 0)
             {
-                WriteLine(s.ToString());
+                Console.Write("\nPlease enter the year: ");
+                try
+                {
+                    year = int.Parse(ReadLine());
+                    WriteLine("year: {0}", year);
+                    if (year > 2019 || year < 2000)
+                    {
+                        throw new YearRangeException("year outside of company's history."); // explicit throw so we can specify exception type
+                    }
+                    // don't need > Exception is thrown automatically due to try{} block
+                    // if no try block, program breaks if string entered.
+                    //else if (typeof(int) == year.GetType()) // flash card
+                    //else if (year is Int) // flash card
+                    //{
+                    //    throw new Exception();
+                    //}
+                }
+                catch (YearRangeException e)
+                {
+                    WriteLine(e.Message);
+                    year = 0;
+                }
+                catch (Exception e)
+                {
+                    WriteLine(e.Message);
+                    year = 0;
+                }
             }
 
+            while (month == 0)
+            {
+                Console.Write("\nPlease enter the month: ");
+                try
+                {
+                    month = int.Parse(ReadLine());
+                    WriteLine("month: {0}", month);
+                    if (month > 12 || month < 1)
+                    {
+                        throw new MonthRangeException("Please enter a valid month value (1-12)");
+                    }
+                }
+                catch (MonthRangeException e)
+                {
+                    WriteLine(e.Message);
+                    month = 0;
+                }
+                catch (Exception e)
+                {
+                    WriteLine(e.Message);
+                    month = 0;
+                }
+            }
+
+            foreach(Staff s in myStaff)
+            {
+                try
+                {
+                    Write("Enter the hours worked for {0}: ", s.NameOfStaff);
+                    s.HoursWorked = int.Parse(ReadLine());
+                    s.CalculatePay();
+                    WriteLine(s.ToString());
+                } catch(Exception e)
+                {
+                    WriteLine(e.Message);
+                }
+            }
+
+            PaySlip ps = new PaySlip(month, year);
+            ps.GeneratePaySlip(myStaff);
+            ps.GenerateSummary(myStaff);
+
             ReadKey();  // end program
+        }
+    }
+
+    public class YearRangeException : Exception
+    {
+        //public string override Message { get; set; }
+        public YearRangeException (string Message) : base(Message)
+        {
+            Message = "Year out of range."; 
+        }
+    }
+
+    public class MonthRangeException : Exception
+    {
+        //public string override Message { get; set; }
+        public MonthRangeException(string Message) : base(Message)
+        {
+            Message = "Month out of range.";
         }
     }
 
@@ -30,8 +118,8 @@ namespace Payroll
         private int hWorked;
 
         protected float TotalPay { get; set; }
-        private float BasicPay { get; set; }
-        protected string NameOfStaff { get; set; }
+        public float BasicPay { get; set; }
+        public string NameOfStaff { get; set; }
         public int HoursWorked {
             get
             {
@@ -96,10 +184,11 @@ namespace Payroll
         public override string ToString()
         {
             string managerString = "" +
+                "NameOfStaff: " + NameOfStaff + "\n" +
                 "managerHourlyRate: " + managerHourlyRate + "\n" +
                 "Allowance: " + Allowance + "\n" +
-                "HoursWorked: " + HoursWorked + "\n" +
-                "NameOfStaff: " + NameOfStaff + "\n";
+                "HoursWorked: " + HoursWorked + "\n";
+                
             return managerString;
         }
     }
@@ -127,16 +216,16 @@ namespace Payroll
         public override string ToString()
         {
             string adminString = "" +
-                "adminHourlyRate: " + adminHourlyRate + "\n" +
+                "AdminHourlyRate: " + adminHourlyRate + "\n" +
                 "overtimeRate: " + overtimeRate + "\n" +
                 "Overtime: " + Overtime + "\n";
             return base.ToString(this) + adminString;
         }
     }
 
-    class ReadFile
+    class FileReader
     {
-        public static List<Staff> read() {
+        public static List<Staff> ReadFile() {
             List<Staff> myStaff = new List<Staff>();
             string[] result = new string[2];
             string path = "staff.txt";// in the debug folder where the ".exe" is, according to book.  don't see exe tho
@@ -158,6 +247,65 @@ namespace Payroll
                 }
             } else WriteLine("No file");
             return myStaff;
+        }
+    }
+
+    class PaySlip
+    {
+        private int month;
+        private int year;
+        enum MonthsOfYear { Jan=1, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec }; // why capital name?
+
+        public PaySlip(int payMonth, int payYear)
+        {
+            month = payMonth;
+            year = payYear;
+        }
+
+        public void GeneratePaySlip(List<Staff> myStaff)
+        {
+            string path;
+            foreach(Staff s in myStaff)
+            {
+                path = s.NameOfStaff+".txt";
+                using (StreamWriter sw = new StreamWriter(path))
+                {
+                    sw.WriteLine("PAYSLIP FOR {0} {1}\n", (MonthsOfYear)month, year);
+                    sw.WriteLine("===================================\n");
+                    sw.WriteLine("Name of Staff: {0}\n", s.NameOfStaff);
+                    sw.WriteLine("Hours Worked: {0}\n\n", s.HoursWorked);
+                    sw.WriteLine("Basic Pay: {0:C}\n", s.BasicPay);
+                    if (s.GetType() == typeof(Manager) )
+                    {
+                        sw.WriteLine("Allowance: {0:C}\n\n", ((Manager)s).Allowance);  // Casting!
+                    }
+                    sw.WriteLine("Total Pay: {0}", s.BasicPay + (s.GetType() == typeof(Manager) ? ((Manager)s).Allowance : 0));
+
+                    sw.Close();
+                }
+            }
+        }
+
+        public void GenerateSummary(List<Staff> staffList)
+        {
+            // from where order by select
+            var result = from emp in staffList
+                where emp.HoursWorked < 10
+                //order by emp.NameOfStaff
+                select emp;
+            WriteLine("result: ", result);
+
+            string path = "summary.txt";
+
+            using (StreamWriter sw = new StreamWriter(path))
+            {
+                sw.WriteLine("Staff with less than 10 working hours in {0}\n\n", (MonthsOfYear)month);
+                foreach (Staff s in result)
+                {
+                    sw.WriteLine("Name: {0}\t Hours Worked: {1}", s.NameOfStaff, s.HoursWorked);
+                }
+                sw.Close();
+            }
         }
     }
 }

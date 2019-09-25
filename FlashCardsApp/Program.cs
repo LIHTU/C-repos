@@ -10,6 +10,7 @@ using System.Threading;
 
 // from https://developers.google.com/sheets/api/quickstart/dotnet#step_2_prepare_the_project
 /* using oauth 2 credential json called client_secret.json which needs to be verified by google still.
+ * google api keys managed at: https://console.developers.google.com/apis/credentials?project=quickstart-1568410709869&authuser=0
  * */
 namespace SheetsQuickstart
 {
